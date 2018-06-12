@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    overflow: hidden;
+}
+
+
+.banner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.banner h2{
+    padding-left: 70px;
+}
+
+.banner{
+    display: flex;
+    background-image: url(img/background.png);
+    background-size: cover;
+    color: white;
+    border-top: 10px solid rgb(83,198,94);
+    position: relative;
+    justify-content: space-around;
+    height: 600px;
+}
+/* .banner div{
+    padding: 45px 10px;
+}
+
+.direita{
+    width: 500px;
+} */
+
+/* .direita img{
+    transform: translateX(285px) translateY(49px);
+} */
+
+.esquerda{
+ margin-left: 200px;
+}
