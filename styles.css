@@ -8,13 +8,12 @@ body{
 .banner h1{
     font-family: 'Pacifico', cursive;
     font-size: 60px;
-    font-weight: 100;
-    position: relative;
-    padding-top: 50px;
-    padding-left: 70px;
+    font-weight: 80;
+   /* position: relative;*/
+   margin:0;
 }
 .banner h2{
-    padding-left: 70px;
+    width: 55%;
 }
 
 .banner{
@@ -27,18 +26,42 @@ body{
     justify-content: space-around;
     height: 600px;
 }
-/* .banner div{
-    padding: 45px 10px;
+
+.esquerda{
+ /*margin-left: 200px;*/
+ display: block; 
+ justify-content: center;
+ align-items: center;
+ width:70%;
+ /*padding-top: 50px;*/
+ padding-left: 70px;
+ margin: auto;
 }
 
 .direita{
-    width: 500px;
-} */
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+}
 
-/* .direita img{
-    transform: translateX(285px) translateY(49px);
-} */
+#troca-cor{
+    color: rgb(83,198,94);
+}
+.icone div:hover{
+    color: rgb(83,198,94);
+}
 
-.esquerda{
- margin-left: 200px;
+.icone img{
+    margin-right: 10px; 
+    /*border-radius: 100%;
+    background-color: rgba(0, 0, 0 .2);*/
+}
+.icone{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.ios{
+    background-color: rgba(0, 0, 0 .2);
+    border-radius: 100%;
 }
